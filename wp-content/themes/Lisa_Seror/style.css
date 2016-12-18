@@ -49,10 +49,7 @@ body{
 	transition: .333s ease top, .333s ease opacity;
 	margin-bottom: 5px;
 }
-/****home****/
-img{
-	padding: 24px;
-}
+
 
 .form-group {
     margin-bottom: 2em;
@@ -125,4 +122,8 @@ textarea {
 .text-univers{
 	font-size: 18pt;
 	font-family: roboto;
+}
+/****home****/
+img{
+	padding: 24px;
 }
