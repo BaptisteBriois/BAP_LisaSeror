@@ -19,9 +19,11 @@
   
 </div>
 <div class="row">
+
   <div class="col-md-6" style="margin-left: 7%; width: 42%;">
- 
+   <a href="#" class="expo">
  <img src="<?php echo get_template_directory_uri(); ?>/img/danse du cygne (2).png" alt="...">
+ </a>
  
       <img src="<?php echo get_template_directory_uri(); ?>/img/solitude.png" alt="...">
 <img src="<?php echo get_template_directory_uri(); ?>/img/Les mots.png" alt="...">

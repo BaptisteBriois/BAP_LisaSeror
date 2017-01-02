@@ -19,10 +19,11 @@
 
     <!--  Style -->
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">
      <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/img/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 
     <!--  Police -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+    
 </header>
 <body>

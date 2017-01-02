@@ -9,7 +9,14 @@ body{
 	font-family: roboto;
 		margin-top: 10%;
 }
-
+    h1{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 10%;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+}
+p
 
 /******************** CONTCT  *******************/
 
@@ -127,3 +134,10 @@ textarea {
 img{
 	padding: 24px;
 }
+.expo:hover {
+    background-color: red;
+   position: absolute;
+    }
+    a{
+    	color: #333!important;
+    }

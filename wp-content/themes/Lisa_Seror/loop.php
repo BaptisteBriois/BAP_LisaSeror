@@ -11,27 +11,27 @@ $query = new WP_query ( $args ); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<!-- post thumbnail -->
-		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-		<div class="row">
-			<div class="col-md-6">
-			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-				<?php the_post_thumbnail(array(700,700)); // Declare pixel size you need inside the array ?>
-			</a>
-		</div>
-		<?php endif; ?>
+		
 		<!-- /post thumbnail -->
 
 		<!-- post title -->
-		<div class="col-md-6"  id="post-<?php the_ID(); ?>" <?php post_class(); ?> style="background-color:#edecec;height:653px;">
+		<div class="col-md-6"  id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
 		<div class="post-content">
+			<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
+		
+			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
+				<?php the_post_thumbnail(array(700,700)); // Declare pixel size you need inside the array ?>
+			</a>
+		
+		<?php endif; ?>
 		<h2>
-			<a  class="no" style="color:black;" id="post-<?php the_ID(); ?>" <?php post_class(); ?> href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
+			<a  class="no"  id="post-<?php the_ID(); ?>" style="color: #333;font-family: 'Raleway', sans-serif;font-weight: 300;" <?php post_class(); ?> href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 		</h2>
 		
     <p id="post-<?php the_ID(); ?>" <?php post_class(); ?> > <?php the_content(); ?></p>
     <!-- post details -->
     <div class ="byn" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
-    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="baliselien" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >View post</a>
+    	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="baliselien" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >Lire la suite</a>
 
     </div>
 		<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>

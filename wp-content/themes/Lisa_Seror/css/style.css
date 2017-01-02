@@ -126,3 +126,6 @@ textarea {
 	font-size: 18pt;
 	font-family: roboto;
 }
+a:hover { 
+    background-color: red;
+}
